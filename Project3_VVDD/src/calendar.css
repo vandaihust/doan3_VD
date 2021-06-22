@@ -1,0 +1,57 @@
+
+#calender {
+	width: 200px;
+	font-family: ms sans serif, sans serif;
+	font-size: 7pt;
+	}
+
+#calenderTable {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+	}
+
+#calenderTableHead TR {
+	background-color: #5FB404;
+	}
+
+#calenderTableDays TR {
+	background-color: peru;
+	color: #E6E6E6;
+	}
+
+.normalDay {
+	border: 1px dotted black;
+	}
+
+.hlDay {
+	border: 1px black;
+	background-color: #585858;
+	color: #E6E6E6;
+	cursor: pointer;
+	}
+
+.toDay {
+	border: 1px solid #E70;
+	background-color: #FD8;
+	color: #E70;
+	font-weight: bold;
+	cursor: pointer;
+	}
+
+.choosenDay {
+
+	color: #E6E6E6;
+	font-weight: bold;
+	cursor: pointer;
+	}
+.thoat{
+	border-radius: 50%;
+    background-color: indianred;
+    color: wheat;
+    padding: 8px;
+    font-size: x-small;
+    font-weight: 900
+}
